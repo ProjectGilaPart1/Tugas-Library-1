@@ -18,3 +18,8 @@ char judul(){
     strcpy(b, a);
 return 0;
 }
+void wutever(){
+	char a[100] = "I am the most handsome boy! xixixi";
+	int b;
+	b = strlen(a);
+}
