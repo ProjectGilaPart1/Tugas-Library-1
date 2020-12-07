@@ -20,6 +20,6 @@ return 0;
 }
 void wutever(){
 	char a[100] = "I am the most handsome boy! xixixi";
-	int b;
+	char b[100];
 	b = strlen(a);
 }
