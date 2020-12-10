@@ -30,8 +30,4 @@ void main(){
 	
 	printf("Mencari huruf '%c' dalam nama... \n", huruf) ;
 	hasil = strchr (nama, huruf);
-	
-	while(hasil != NULL) {
-		printf("Ditemukan pada huruf ke -%d\n", hasil - nama+1);
-		hasil = strchr(hasil+1, huruf);
-	}
+}
